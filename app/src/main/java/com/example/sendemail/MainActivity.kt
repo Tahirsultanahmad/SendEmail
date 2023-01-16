@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         val emailAddress = arrayOf(editto)
 
         val mIntent = Intent(Intent.ACTION_SEND)
-      //  mIntent.data= Uri.parse("mailto:")
+      //  mIntent.data= Uri.parse("mailto:")//
         mIntent.type = "*/*"
         mIntent.putExtra(Intent.EXTRA_EMAIL, emailAddress)
         mIntent.putExtra(Intent.EXTRA_SUBJECT, editsubject)
